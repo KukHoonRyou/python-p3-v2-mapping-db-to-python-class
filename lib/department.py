@@ -3,7 +3,7 @@ from __init__ import CURSOR, CONN
 
 class Department:
 
-    all = []
+    all = {}
 
     def __init__(self, name, location, id=None):
         self.id = id
